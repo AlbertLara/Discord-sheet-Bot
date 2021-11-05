@@ -10,5 +10,4 @@ token = os.getenv("DISCORD_TOKEN")
 
 bot.load_extension("commands")
 
-if __main__ == "__name__":
-    bot.run(token)
+bot.run(token)
